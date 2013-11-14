@@ -1,0 +1,220 @@
+﻿
+.catTitle
+{
+	border-top: solid 1px #ccc;
+	border-bottom: dashed 1px #ddd;
+	background: #fff url(images/catTitle.jpg) repeat-x top;
+	margin-top: 10px;
+	margin-bottom: 6px;
+	color: #666666;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 3px;
+	height: 18px;
+}
+.catTitle a
+{
+	color: #666666;
+}
+.catTitle a:hover
+{
+	color: #000;
+	text-decoration: underline;
+}
+.cmtPager
+{
+	text-align: right;
+	font-size: 11px;
+	font-family: Verdana;
+}
+.cmtPager a, .cmtPager a:link, .cmtPager a:visited
+{
+	color: #666;
+	text-decoration: none;
+}
+.cmtPager a b
+{
+	color: #f00;
+	font-size: 12px;
+}
+.cmtPager a:hover, .cmtPager a:active
+{
+	color: #666;
+}
+.commentBox
+{
+	background-color: #F9F9F9;
+	border: 1px solid #DBDBDB;
+	padding: 5px;
+}
+.commentBox table tr td a
+{
+    background-color: transparent;
+	color: #004784;
+	text-decoration: none;
+}
+.blue
+{
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+	color: #20a8d1;
+}
+.blueBold, .blueBold a
+{
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+	color: #20a8d1;
+	font-weight: bold;
+	text-decoration: none;
+}
+.bucket .h
+{
+	background: url(images/bucket_clear_border_top.gif) no-repeat top left;
+	height: 6px;
+	position: relative;
+	display: block;
+	width: 100%;
+}
+.bucket .h div
+{
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	display: block;
+	top: 0px;
+	right: 0px;
+	background: url(images/bucket_clear_border_top.gif) no-repeat top right;
+}
+.bucket .caption
+{
+	background: url(images/bucket_clear_border.gif) repeat-y top left;
+	border-bottom: 1px solid #CCCCCC;
+	color: #333333;
+	font-size: 11px;
+	line-height: 8pt;
+	text-transform: uppercase;
+	display: block;
+	font-weight: bold;
+	font-family: Verdana;
+}
+.bucket .caption div
+{
+	margin-left: 6px;
+	padding: 0pt 8px 6px 0px;
+	background: url(images/bucket_clear_border.gif) repeat-y right top;
+	display: block;
+}
+.bucket .f
+{
+	background: url(images/bucket_clear_brdr_btm.gif) no-repeat bottom left;
+	height: 6px;
+	position: relative;
+	display: block;
+	width: 100%;
+}
+.bucket .f div
+{
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	display: block;
+	bottom: 0px;
+	right: 0px;
+	background: url(images/bucket_clear_brdr_btm.gif) no-repeat bottom right;
+}
+.bucket
+{
+}
+.bucket .c
+{
+	background: url(images/bucket_clear_border.gif) repeat-y top left;
+	text-align:center;
+}
+.bucket .c div.r
+{
+	margin-left: 6px;
+	background: url(images/bucket_clear_border.gif) repeat-y right top;
+}
+/* Đoạn này là của Daily */
+.hrDividerDashed
+{
+	repeat-x scroll left top;
+	height: 9px;
+	margin-top: 8px;
+	width: 100%;
+	height: 1px;
+	margin: 1px 0pt 8px;
+	font-size: 0px;
+	line-height: 2px;
+}
+.hrDividerSolid
+{
+	background-color: #707273;
+	height: 2px;
+	font-size: 0px;
+	line-height: 2px;
+}
+.hrDividerDotted
+{
+	background-image: url(images/black_dot.gif);
+	background-repeat: repeat-x;
+	height: 2px;
+	margin-top: 3px;
+	font-size: 0px;
+	line-height: 2px;
+}
+.pnlLeftNavPromo
+{
+	background: transparent url(images/leftModGradientBg.gif) repeat-x scroll left bottom;
+	margin: 8px 10px 5pt 4px;
+	padding: 6px;
+	border: solid 1px #8C8D8E;
+}
+.divMoreArticle
+{
+	margin-top: 10px;
+}
+.pnlLeftNavPromo .h, .divMoreArticle .h
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 8pt;
+	text-transform: uppercase;
+}
+.pnlLeftNavPromo .h a, .divMoreArticle .h a
+{
+	color: #000;
+}
+.pnlLeftNavPromo .f
+{
+}
+.spotlightLinks div
+{
+	background-image: url(images/blue_dot.gif);
+	background-position: 0pt 9px;
+	background-repeat: no-repeat;
+	line-height: 13px;
+	padding: 3px 0px 3px 7px;
+	font-size: 11px;
+}
+sup.date
+{
+	color: #666666;
+	font-family: Verdana,Tahoma;
+	font-size: 11px;
+	padding-left: 5px;
+}
+
+#rPanel1 a
+{
+background-color:transparent;
+color:#004784;
+text-decoration:none;
+}
+#rPanel1 a:hover
+{
+	text-decoration:none;
+	color:#990000;
+}

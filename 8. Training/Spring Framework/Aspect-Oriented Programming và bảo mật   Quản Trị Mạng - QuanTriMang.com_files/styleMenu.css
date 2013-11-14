@@ -1,0 +1,206 @@
+/* CSS Document */
+/*Trang chinh */
+#ctl00_nav_rpTopMenu_ctl06_liTmn {display:none;}
+
+#menumain
+{
+	overflow:hidden;
+    width: 995px;
+    height: 56px;
+    padding: 0px 1px 1px 1px;
+	margin:auto;
+    font-size: 11px;
+    color: #ffffff; clear:both; position:relative;
+	border:1px solid #dfdfdf;
+	border-bottom:none;
+	font-family: Tahoma;
+}
+ul#topnav ctl00_nav_rpTopMenu_ctl06_liTmn {display:none;}
+ul#topnav
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    width: 995px;
+    height: 25px;
+    position: relative;
+    background: url(images/bg_topnav_03.jpg) repeat-x; 
+    text-transform: uppercase;
+    font-family: arial;
+    font-size: 12px;
+}
+ul#topnav li
+{
+    float: left;
+    margin: 0px;  
+    font-weight: bold; 
+}
+ul#topnav li.item
+{
+    background: url(images/border_right_topnav_03.jpg) no-repeat right 1px;
+    padding: 0px 2px 0px 2px;
+display:-moz-inline-stack;
+display:inline-block;
+zoom:1;
+*display:inline;
+}
+ul#topnav li.item.right
+{
+    float: right;
+    padding-left: 10px;
+    background: url(images/icon_new_03.jpg) no-repeat 10px 8px;
+}
+
+ul#topnav li.item a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+ display:-moz-inline-stack;
+display:inline-block;
+zoom:1;
+*display:inline;
+	position: relative;
+}
+ul#topnav li.item a span
+{
+    height: 25px;
+    line-height: 25px;
+    padding: 0px 7px; 
+  display:-moz-inline-stack;
+display:inline-block;
+zoom:1;
+*display:inline;	
+}
+ul#topnav li.item a:hover, ul#topnav li.item.on a
+{
+    color: #1c5a8b;
+    background: url(images/bg_nav_hover_left.gif) no-repeat left 1px;
+}
+ul#topnav li.item a:hover span, ul#topnav li.item.on a span
+{
+    background: transparent url(images/bg_nav_hover_right.gif) no-repeat right 1px;
+    padding-bottom: 2px;
+    
+}
+
+.icon
+{
+	background: url(images/icon_new_03.jpg) no-repeat 10px 8px;
+	padding-left:20px;
+	padding-top:5px;
+	float:right ! important;
+	padding-right:10px;
+	
+}
+.icon a
+{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+
+/*subnav*/
+#bg_submenu
+{
+    background: url(images/bg_submenu_03.jpg) repeat-x left top;    height: 26px;
+    width: 995px;
+    float: left;}
+ul#topnav li.item ul 
+{
+     background:#e3e3e3;
+    height: 28px;
+    width: 995px;
+    float: left;
+    text-transform: none;
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 27px;
+    font-family: arial;
+    font-size: 12px;
+}
+ul#topnav li.item ul.sub_41 
+{
+    
+    width: 295px;
+    
+	padding-left: 700px;
+     
+   
+}
+ul#topnav li.item ul.sub_40 
+{
+      padding-left:380px;
+     
+     width: 615px;
+    
+  
+   
+}
+ul#topnav li.item ul.sub_52 
+{
+    
+     
+     width: 655px;
+    
+ padding-left:340px;
+    
+     
+}
+ul#topnav li.item ul.sub_33 
+{
+    
+    width: 895px;
+ 
+	padding-left:120px;
+  
+   
+}
+ul#topnav li.item ul.sub_38 
+{
+    
+   
+    width: 645px;
+ 
+ padding-left:370px;
+ 
+   
+}
+ul#topnav li.item ul.sub_61 
+{ 
+    width: 455px;
+    float: left;
+ padding-left:540px;
+    
+}
+
+
+ul#topnav li.item ul.sub_37
+{
+     
+     width: 855px;
+    
+ padding-left:160px;
+    
+}
+
+ul#topnav li.item ul li
+{
+    padding: 0px 10px;
+    display: block;white-space: nowrap;
+    float: left;
+}
+ul#topnav li.item ul li a, ul#topnav li.item.on ul li a
+{
+    background: none;
+    color: #1c5a8b; line-height:28px;
+}
+/*subnav:hover*/
+ul#topnav li.item:hover ul, ul#topnav li.item.on ul
+{
+    display: block;
+}
+ul#topnav li.item ul li a:hover{color:red}
+/*Menu trang thiet bi so*/
+
