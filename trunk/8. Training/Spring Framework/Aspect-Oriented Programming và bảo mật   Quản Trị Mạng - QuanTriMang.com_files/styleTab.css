@@ -1,0 +1,85 @@
+/* CSS Document */
+
+body
+{
+	
+}
+.TabTextlink
+{
+    font-family:Tahoma; line-height:16px;
+	font-size:11px;
+	padding:0; margin:0;
+	width:298px; border:1px solid #d7d7d7;
+	border-top:none;
+}
+
+.TabTextlink td
+{
+    margin:0; padding:0;
+	vertical-align: top!important;
+}
+
+.TextLink-Head
+{
+	width:298px; background:url(../images/Textlink-head.jpg) repeat-x left top;
+	height:47px;
+	padding-top:12px;
+}
+
+.TL-Head-top
+{
+	 margin-left:15px;
+}
+
+.TL-Head-top a
+{
+	text-decoration:none; color:#dc342f;
+}
+
+.TextLink-body
+{
+	width:298px;
+}
+.Textlink-item
+{
+	width:298px; background:url(../images/border-item.jpg) no-repeat left top;
+	padding-bottom:15px;
+}
+.itemsTL
+{
+	width:272px; margin-left:10px;
+}
+.itemsTl-top
+{
+	padding-top:8px; padding-bottom:10px;
+}
+.itemsTL-catalog
+{
+	float:left;font-weight:bold; color:#252424;
+}
+.itemsTL-catalog a
+{
+	text-decoration:none; color:#252424;
+}
+.linkweb
+{
+	color:#dd0007; text-align:right;
+}
+.linkweb a
+{
+	color:#dd0007; text-decoration:none;
+}
+.itemsTL-intro
+{
+	padding-top:7px!important; padding-left:10px!important;
+}
+.itemsTL-intro a
+{
+	text-decoration:none; color:#212020;
+}
+
+.TextLink-Bottom
+{
+	width:292px; background:url(../images/Textlink-bottom.jpg) no-repeat left top;
+	height:21px; color:#419eef; font-weight:bold; text-align:right; text-decoration:underline; padding-right:5px; padding-top:6px;
+}

@@ -1,0 +1,1 @@
+document.write('<a id="atic_favorites" tabindex="02" href="#" class="at_item  at_bold at_col0   " onmouseover="_atw.shv(this)" onmouseout="_atw.rhv(this)" onclick="return addthis_sendto(\'favorites\');"><span class="at16nc at16t_favorites at16t">Yêu Thích</span></a>');
