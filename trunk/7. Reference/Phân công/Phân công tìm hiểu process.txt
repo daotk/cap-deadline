@@ -1,0 +1,47 @@
+
+
+- Quy trình ACDM và Scrum tích h?p ntn?----------->Làm sau
+- T?ng stage trong ACDM có role nào?---------------------------------------------------
+- M?i role trong t?ng stage làm vi?c gì?-----------------------------------------------
+- M?i stage có tài li?u gì?------------------------------------------------------------>ch? dua ra du?c khái ni?m so b?
+- Input output trong t?ng stage trong ACDM là gì?--------------------------------------
+- Mapping gi?a role trong ACDM và Scrum------------>Làm sau
+- T?ng giai do?n trong Scrum c?n làm gì?----------------------------------------------->Ch? dua ra du?c khái ni?m so b?
+- S? d?ng công c? gì trong Scrum?
+- T?ng role trong Scrum làm gì?
+- T?ng role c?n có tài li?u gì?
+- Daily meeting ph?i làm gì?
+- Daily meeting có tài li?u gì? ghi nh?n ntn?
+- Xác nh?n t?ng giai do?n ntn?
+- t?ng Spring control ntn?
+
+
+
+
+- T?ng stage trong ACDM có role nào?
+	*****Phân role tru?c--> tìm hi?u
+	- ME------>Quang Huy
+	- CA------>Thiên Phú
+	- CS------>Thành Ð?o
+	- Sup----->Ng?c Châu
+	- Qua----->Xuân Huy
+	- Pro----->Quang Huy
+	- RE------>Tr?ng Khang
+- M?i role trong t?ng stage làm vi?c gì?
+	- Tìm hi?u responsibility
+
+- M?i stage có tài li?u gì?
+	- Stage 1:------>Khang
+	- Stage 2:------>Khang
+	- Stage 3:------>Phú
+	- Stage 4:------>Xuân Huy
+	- Stage 5:------>Ð?o
+	- Stage 6:------>Châu
+	- Stage 7:------>Quang Huy
+	- Stage 8:------>Quang Huy
+- Input output trong t?ng stage trong ACDM là gì?
+	- Template cho tài li?u
+	- Có bao nhiêu lo?i tài li?u trong m?i stage
+- T?ng giai do?n trong Scrum c?n làm gì?
+	- So b? v? scrum:------>Phú
+DEADLINE: 2h ----> 3h-4h team meeting
