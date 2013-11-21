@@ -1,19 +1,15 @@
 
 
-- Quy trình ACDM và Scrum tích h?p ntn?----------->Làm sau
-- T?ng stage trong ACDM có role nào?---------------------------------------------------
-- M?i role trong t?ng stage làm vi?c gì?-----------------------------------------------
-- M?i stage có tài li?u gì?------------------------------------------------------------>ch? dua ra du?c khái ni?m so b?
-- Input output trong t?ng stage trong ACDM là gì?--------------------------------------
-- Mapping gi?a role trong ACDM và Scrum------------>Làm sau
-- T?ng giai do?n trong Scrum c?n làm gì?----------------------------------------------->Ch? dua ra du?c khái ni?m so b?
-- S? d?ng công c? gì trong Scrum?
-- T?ng role trong Scrum làm gì?
-- T?ng role c?n có tài li?u gì?
-- Daily meeting ph?i làm gì?
-- Daily meeting có tài li?u gì? ghi nh?n ntn?
-- Xác nh?n t?ng giai do?n ntn?
-- t?ng Spring control ntn?
+- Quy trình ACDM và Scrum tích h?p ntn?-----------Phu
+- Mapping gi?a role trong ACDM và Scrum-----------Phu
+- T?ng giai do?n trong Scrum c?n làm gì?----------Qang Huy
+- S? d?ng công c? gì trong Scrum?-----------------Dao
+- T?ng role trong Scrum làm gì?-----------------Khang
+- T?ng role c?n có tài li?u gì?-----------------Xuân Huy
+- Daily meeting ph?i làm gì?--------------------Chau
+- Daily meeting có tài li?u gì? ghi nh?n ntn?---Chau
+- Xác nh?n t?ng giai do?n ntn?------------------Chau
+- t?ng Sprint control ntn?----------------------Dao
 
 
 
