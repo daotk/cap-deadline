@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<proj ListSeperator="," DefaultDurationUnits="days" DefaultWorkUnits="hours" HoursPerDay="8" HoursPerWeek="40" DaysPerMonth="21.75" DefaultStartTime="08:00" DefaultFinishTime="17:00" NADate="">
+		<calendar>
+			<normalhours s1="08:00" f1="12:00" s2="13:00" f2="17:00"/>
+			<dow day="sun" working="no"/>
+			<dow day="mon" working="yes"/>
+			<dow day="tue" working="yes"/>
+			<dow day="wed" working="yes"/>
+			<dow day="thu" working="yes"/>
+			<dow day="fri" working="yes"/>
+			<dow day="sat" working="no"/>
+		</calendar>
+		<currency symbol="$" digits="2" positiveOrder="0" negativeOrder="0"/>
+		<summary ScheduleFromStart="yes" CalculateCostProgress="no" MultipleCriticalPaths="no" CriticalSlack="0d" Name="requirement" Title="requirement" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00"/>
+		<tasks>
+			<task ID="0" UniqueID="0" OutlineLevel="0" Name="requirement" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes"/>
+			<task ID="1" UniqueID="1" OutlineLevel="1" Name="Requirement" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="2" UniqueID="15" OutlineLevel="2" Name="Operation Requirement" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="3" UniqueID="24" OutlineLevel="3" Name="Functional" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="4" UniqueID="28" OutlineLevel="3" Name="Quality attributes " Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="5" UniqueID="29" OutlineLevel="3" Name="Constraints" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="6" UniqueID="16" OutlineLevel="2" Name="Architectural Specification" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="7" UniqueID="25" OutlineLevel="3" Name=" Entity" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="8" UniqueID="42" OutlineLevel="4" Name="Newsletter module" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="9" UniqueID="73" OutlineLevel="5" Name="Tong bien tap" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="10" UniqueID="74" OutlineLevel="5" Name="Bien tap" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="11" UniqueID="72" OutlineLevel="5" Name="Phong vien" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="12" UniqueID="43" OutlineLevel="4" Name="Catalog module" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="13" UniqueID="82" OutlineLevel="5" Name="Cong cu hien thi soan tin va danh muc" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="14" UniqueID="68" OutlineLevel="5" Name="Quan tri danh muc" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="15" UniqueID="44" OutlineLevel="4" Name="Q/A module" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="16" UniqueID="83" OutlineLevel="5" Name="Cong cu hien thi bo tu dien" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="17" UniqueID="84" OutlineLevel="5" Name="Cong cu quan tri bo tu dien" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="18" UniqueID="85" OutlineLevel="5" Name="Email gateway" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="19" UniqueID="86" OutlineLevel="5" Name="Android app" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="20" UniqueID="80" OutlineLevel="5" Name="Nguoi hoi" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="21" UniqueID="81" OutlineLevel="5" Name="Nguoi tra loi" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="22" UniqueID="30" OutlineLevel="3" Name="Use case diagram and description" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="23" UniqueID="45" OutlineLevel="4" Name="Newsletter module" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="24" UniqueID="93" OutlineLevel="5" Name="Tao ban tin" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="25" UniqueID="94" OutlineLevel="5" Name="Sua ban tin" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="26" UniqueID="95" OutlineLevel="5" Name="Xem truoc ban tin" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="27" UniqueID="96" OutlineLevel="5" Name="Xem noi dung ban tin" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="28" UniqueID="97" OutlineLevel="5" Name="Tra ban tin" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="29" UniqueID="98" OutlineLevel="5" Name="Sap xep ban tin" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="30" UniqueID="99" OutlineLevel="5" Name="Tim kiem ban tin" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="31" UniqueID="100" OutlineLevel="5" Name="Chuyen ban tin" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="32" UniqueID="101" OutlineLevel="5" Name="Uy quyen" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="33" UniqueID="102" OutlineLevel="5" Name="Xoa tin" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="34" UniqueID="103" OutlineLevel="5" Name="Xoa vinh vien" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="35" UniqueID="104" OutlineLevel="5" Name="Dang tin cap 1" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="36" UniqueID="105" OutlineLevel="5" Name="Dang tin cap 2" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="37" UniqueID="106" OutlineLevel="5" Name="Ha ban tin" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="38" UniqueID="107" OutlineLevel="5" Name="Lay tin ve" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="39" UniqueID="108" OutlineLevel="5" Name="Y kien" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="40" UniqueID="46" OutlineLevel="4" Name="Catalog module" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="41" UniqueID="110" OutlineLevel="5" Name="Xem danh muc" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="42" UniqueID="111" OutlineLevel="5" Name="Tao danh muc" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="43" UniqueID="112" OutlineLevel="5" Name="Chinh sua danh muc" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="44" UniqueID="113" OutlineLevel="5" Name="Xoa danh muc" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="45" UniqueID="114" OutlineLevel="5" Name="Sap xep danh muc" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="46" UniqueID="47" OutlineLevel="4" Name="Q/A module" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="47" UniqueID="115" OutlineLevel="5" Name="Tim kiem/Xem ds cau hoi chua tra loi" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="48" UniqueID="116" OutlineLevel="5" Name="Xem chi tiet cau hoi" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="49" UniqueID="117" OutlineLevel="5" Name="Xoa cau hoi" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="50" UniqueID="118" OutlineLevel="5" Name="Tao tra loi" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="51" UniqueID="119" OutlineLevel="5" Name="Gui mail" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="52" UniqueID="120" OutlineLevel="5" Name="Tim kiem/Xem ds cau hoi da luu" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="53" UniqueID="121" OutlineLevel="5" Name="Chinh sua cau tra loi" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="54" UniqueID="122" OutlineLevel="5" Name="Tim kiem/Xem ds cau hoi da tra loi" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="55" UniqueID="123" OutlineLevel="5" Name="Dua Q/A vao bo tu dien" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="56" UniqueID="124" OutlineLevel="5" Name="Loai Q/A tu bo tu dien" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="57" UniqueID="125" OutlineLevel="5" Name="Tim kiem/Xem lich su gui mail" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="58" UniqueID="31" OutlineLevel="3" Name="Quality Attributes" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="59" UniqueID="164" OutlineLevel="4" Name="Newsletter module" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="60" UniqueID="163" OutlineLevel="4" Name="Catalog module" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="61" UniqueID="162" OutlineLevel="4" Name="Q/A module" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="62" UniqueID="32" OutlineLevel="3" Name="Constraints" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="63" UniqueID="48" OutlineLevel="4" Name="Technical constraints" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="64" UniqueID="49" OutlineLevel="4" Name="Business Constraints" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="65" UniqueID="33" OutlineLevel="3" Name="Priority" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="66" UniqueID="51" OutlineLevel="4" Name="Functional" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="67" UniqueID="176" OutlineLevel="5" Name="Newsletter module" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="68" UniqueID="177" OutlineLevel="6" Name="Tao ban tin" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="69" UniqueID="178" OutlineLevel="6" Name="Sua ban tin" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="70" UniqueID="179" OutlineLevel="6" Name="Xem truoc ban tin" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="71" UniqueID="180" OutlineLevel="6" Name="Xem noi dung ban tin" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="72" UniqueID="181" OutlineLevel="6" Name="Tra ban tin" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="73" UniqueID="182" OutlineLevel="6" Name="Sap xep ban tin" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="74" UniqueID="183" OutlineLevel="6" Name="Tim kiem ban tin" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="75" UniqueID="184" OutlineLevel="6" Name="Chuyen ban tin" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="76" UniqueID="185" OutlineLevel="6" Name="Uy quyen" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="77" UniqueID="186" OutlineLevel="6" Name="Xoa tin" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="78" UniqueID="187" OutlineLevel="6" Name="Xoa vinh vien" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="79" UniqueID="188" OutlineLevel="6" Name="Dang tin cap 1" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="80" UniqueID="189" OutlineLevel="6" Name="Dang tin cap 2" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="81" UniqueID="190" OutlineLevel="6" Name="Ha ban tin" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="82" UniqueID="191" OutlineLevel="6" Name="Lay tin ve" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="83" UniqueID="192" OutlineLevel="6" Name="Y kien" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="84" UniqueID="193" OutlineLevel="5" Name="Catalog module" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="85" UniqueID="194" OutlineLevel="6" Name="Xem danh muc" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="86" UniqueID="195" OutlineLevel="6" Name="Tao danh muc" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="87" UniqueID="196" OutlineLevel="6" Name="Chinh sua danh muc" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="88" UniqueID="197" OutlineLevel="6" Name="Xoa danh muc" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="89" UniqueID="198" OutlineLevel="6" Name="Sap xep danh muc" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="90" UniqueID="199" OutlineLevel="5" Name="Q/A module" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="91" UniqueID="200" OutlineLevel="6" Name="Tim kiem/Xem ds cau hoi chua tra loi" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="92" UniqueID="201" OutlineLevel="6" Name="Xem chi tiet cau hoi" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="93" UniqueID="202" OutlineLevel="6" Name="Xoa cau hoi" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="94" UniqueID="203" OutlineLevel="6" Name="Tao tra loi" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="95" UniqueID="204" OutlineLevel="6" Name="Gui mail" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="96" UniqueID="205" OutlineLevel="6" Name="Tim kiem/Xem ds cau hoi da luu" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="97" UniqueID="206" OutlineLevel="6" Name="Chinh sua cau tra loi" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="98" UniqueID="207" OutlineLevel="6" Name="Tim kiem/Xem ds cau hoi da tra loi" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="99" UniqueID="208" OutlineLevel="6" Name="Dua Q/A vao bo tu dien" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="100" UniqueID="209" OutlineLevel="6" Name="Loai Q/A tu bo tu dien" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="101" UniqueID="210" OutlineLevel="6" Name="Tim kiem/Xem lich su gui mail" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="102" UniqueID="52" OutlineLevel="4" Name="Quality attributes " Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="103" UniqueID="172" OutlineLevel="5" Name="Newsletter module" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="104" UniqueID="173" OutlineLevel="5" Name="Catalog module" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="105" UniqueID="174" OutlineLevel="5" Name="Q/A module" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="106" UniqueID="53" OutlineLevel="4" Name="Constraints" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="107" UniqueID="212" OutlineLevel="5" Name="Technical constraints" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="108" UniqueID="213" OutlineLevel="5" Name="Business Constraints" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="109" UniqueID="18" OutlineLevel="2" Name="Product backlog" Duration="1d" RemainingDuration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="110" UniqueID="27" OutlineLevel="3" Name="Newsletter module" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="111" UniqueID="54" OutlineLevel="3" Name="Catalog module" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="112" UniqueID="55" OutlineLevel="3" Name="Q/A module" Duration="1d" Start="2013-12-18T08:00" Finish="2013-12-18T17:00" EarlyStart="2013-12-18T08:00" EarlyFinish="2013-12-18T17:00" LateStart="2013-12-18T08:00" LateFinish="2013-12-18T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+		</tasks>
+		<outline current="27">
+			<collapse uid="42"/>
+			<collapse uid="43"/>
+			<collapse uid="44"/>
+			<collapse uid="45"/>
+			<collapse uid="46"/>
+			<collapse uid="47"/>
+			<collapse uid="176"/>
+			<collapse uid="193"/>
+			<collapse uid="199"/>
+			<collapse uid="52"/>
+		</outline>
+	</proj>
+	<printInfo mode="scale" orient="landscape" pagesWide="1" pagesHigh="1" scale="100%" bw="no" enlarge="no" byColumn="no" adjustPageBreaks="no" marginTop="36pt" marginLeft="36pt" marginBottom="36pt" marginRight="36pt"/>
+	<pageLayouts>
+		<pageLayout id="Page Layout 1" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart with border around Title field. &#13;&#10;Border around outside pages.&#13;&#10;Page numbers upper right." SheetNumbers="yes">
+			<grid id="frame" rows="2" cols="1">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" right_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 2" description="WBS Chart Top/Left aligned.&#13;&#10;Title field displayed above chart no border. &#13;&#10;Page numbers upper right." SheetNumbers="yes">
+			<grid id="frame" rows="2" cols="1" top="1">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="1.45pt" bottom_p="1.45pt" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 3" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart. &#13;&#10;&quot;Printed on&quot; Date in lower left corner.&#13;&#10;Border around every page.&#13;&#10;Page numbers in lower right. " BorderEveryPage="yes">
+			<grid id="frame" rows="3" cols="2">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid" colspan="2"/>
+				</row>
+				<row>
+					<cell field="pCurrent Date" format="2" halign="left" label="Printed on: " left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" top_s="solid"/>
+					<cell field="p (Page Number)" format="13" halign="right" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" top_s="solid" stretch="yes"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 4" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart. &#13;&#10;&quot;Printed on&quot; date in lower left corner.&#13;&#10;Border around every page.&#13;&#10;Page numbers in lower right. &#13;&#10;No border around outside fields." BorderEveryPage="yes">
+			<grid id="frame" rows="3" cols="2" top="1" bottom="1">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" colspan="2" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" colspan="2"/>
+				</row>
+				<row>
+					<cell field="pCurrent Date" format="2" halign="left" label="Printed on: " left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt"/>
+					<cell field="p (Page Number)" format="13" halign="right" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" stretch="yes"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 5" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart. &#13;&#10;&quot;Printed on&quot; date in lower left corner.&#13;&#10;Company below and center.&#13;&#10;&quot;Project Completion&quot; date lower right.&#13;&#10;Page number lower left.&#13;&#10;Manager below center.&#13;&#10;CONFIDENTIAL lower right.&#13;&#10;Border around outside pages. &#13;&#10;Page numbers in upper right. " SheetNumbers="yes">
+			<grid id="frame" rows="4" cols="3">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="3" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid" colspan="3"/>
+				</row>
+				<row>
+					<cell field="pCurrent Date" format="2" label="Printed On: " left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="pCompany" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+					<cell field="pFinish" label="Project Completion: " left_p="3.6pt" right_p="3.6pt" top_p="3.6pt" bottom_p="3.6pt" left_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+				<row>
+					<cell field="p (Page Number)" format="13" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" right_s="solid" top_s="solid"/>
+					<cell field="pManager" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" left_s="solid" right_s="solid" top_s="solid"/>
+					<cell bold="yes" label="CONFIDENTIAL" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 6" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart. &#13;&#10;&quot;Printed on&quot; date in lower left corner.&#13;&#10;Manager below center.&#13;&#10;CONFIDENTIAL lower right.&#13;&#10;Border around outside pages. &#13;&#10;Page numbers in upper right. " SheetNumbers="yes">
+			<grid id="frame" rows="3" cols="3" top="1" bottom="1">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" colspan="3" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" colspan="3"/>
+				</row>
+				<row>
+					<cell field="pCurrent Date" format="2" halign="left" label="Printed on: " left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt"/>
+					<cell field="pManager" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" stretch="yes"/>
+					<cell halign="right" bold="yes" label="CONFIDENTIAL" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" stretch="yes"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 7" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart with border around Title field. &#13;&#10;Border around outside pages.&#13;&#10;Legend of Fields at bottom." SheetNumbers="yes">
+			<grid id="frame" rows="3" cols="1">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" bottom_s="solid" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" top_s="solid" bottom_s="solid"/>
+				</row>
+				<row>
+					<cell field="p (Legend: Fields)" halign="left" label="Fields" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" top_s="solid"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 8" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart with border around Title field. &#13;&#10;Border around outside pages.&#13;&#10;Legend of Fields and Legend of Box Border styles at bottom. " SheetNumbers="yes">
+			<grid id="frame" rows="3" cols="2">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid" colspan="2"/>
+				</row>
+				<row>
+					<cell field="p (Legend: Fields)" label="Fields" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" top_s="solid"/>
+					<cell field="p (Legend: Borders)" format="1" halign="left" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" left_s="solid" top_s="solid" stretch="yes"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 9" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart with border around Title field. &#13;&#10;Border around outside pages.&#13;&#10;Legend of Summary Tasks Fields, Task Fields and Legend of Box Border styles at bottom. " SheetNumbers="yes">
+			<grid id="frame" rows="3" cols="3">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="3"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid" colspan="3"/>
+				</row>
+				<row>
+					<cell field="p (Legend: Fields)" label="Summary Task Fields" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" top_s="solid"/>
+					<cell field="p (Legend: Fields)" format="1" label="Task Fields" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" right_s="solid" top_s="solid"/>
+					<cell field="p (Legend: Borders)" format="1" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" left_s="solid" top_s="solid" stretch="yes"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+	</pageLayouts>
+	<views current="Planning View" current_wbs="Planning View" mode="normal">
+		<wbs_view id="Critical Path View 2" pagelayout="Page Layout 8" outlinesymbolpos="bottomcenter">
+			<item id="summary" before="14.4pt"/>
+			<item id="task" before="7.2pt" listmode="stemleft"/>
+			<border id="Critical Task" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Noncritical Task" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="External Task" shdir="bottom_right" shdepth="3pt" shcolor="gray" color="gray">
+				<border_edge id="top" color="gray"/>
+				<border_edge id="left" color="gray"/>
+				<border_edge id="bottom" color="gray"/>
+				<border_edge id="right" color="gray"/>
+			</border>
+			<grid id="summary" rows="4" cols="3" top="1">
+				<row>
+					<cell field="WBS" halign="left" bold="yes" color="red" left_p="0.7pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" colspan="3"/>
+				</row>
+				<row stretch="yes">
+					<cell field="ID" bold="yes" orient="bottomtop" bkcolor="yellow" left_p="0.7pt" right_p="0.7pt" top_p="0.7pt" bottom_p="0.7pt" right_s="solid" top_s="solid" bottom_s="solid" rowspan="3"/>
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" stretch="yes" charlen="20"/>
+				</row>
+				<row>
+					<cell field="Duration" format="5" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="% Complete" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+				<row>
+					<cell field="Start" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid"/>
+					<cell field="Finish" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+			<grid id="task" rows="4" cols="3" top="1">
+				<row>
+					<cell field="WBS" halign="left" bold="yes" color="red" left_p="0.7pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" colspan="3"/>
+				</row>
+				<row stretch="yes">
+					<cell field="ID" bold="yes" orient="bottomtop" bkcolor="yellow" left_p="0.7pt" right_p="0.7pt" top_p="0.7pt" bottom_p="0.7pt" right_s="solid" top_s="solid" bottom_s="solid" rowspan="3"/>
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" stretch="yes" charlen="20"/>
+				</row>
+				<row>
+					<cell field="Duration" format="5" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="% Complete" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+				<row>
+					<cell field="Start" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid"/>
+					<cell field="Finish" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+<wbs_diff>
+</wbs_diff>
+
+		</wbs_view>
+		<wbs_view id="Critical Path View" pagelayout="Page Layout 1" outlinesymbolpos="bottomcenter">
+			<item id="summary" before="14.4pt"/>
+			<item id="task" before="2.15pt" listmode="stemleft"/>
+			<border id="Critical Task" style="null" color="red" bkcolor="none">
+				<border_edge id="top" color="red"/>
+				<border_edge id="left" color="red"/>
+				<border_edge id="bottom" color="red"/>
+				<border_edge id="right" color="red"/>
+			</border>
+			<border id="Critical Milestone" style="null" color="red" bkcolor="none">
+				<border_edge id="top" color="red"/>
+				<border_edge id="left" color="red"/>
+				<border_edge id="bottom" color="red"/>
+				<border_edge id="right" color="red"/>
+			</border>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Noncritical Task" style="null" color="blue" bkcolor="none">
+				<border_edge id="top" color="blue"/>
+				<border_edge id="left" color="blue"/>
+				<border_edge id="bottom" color="blue"/>
+				<border_edge id="right" color="blue"/>
+			</border>
+			<border id="Noncritical Milestone" style="null" color="blue" bkcolor="none">
+				<border_edge id="top" color="blue"/>
+				<border_edge id="left" color="blue"/>
+				<border_edge id="bottom" color="blue"/>
+				<border_edge id="right" color="blue"/>
+			</border>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="External Task" style="null"/>
+			<grid id="summary" rows="1" cols="1">
+				<row>
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="3.6pt" bottom_p="3.6pt" charlen="20"/>
+				</row>
+			</grid>
+			<grid id="task" rows="1" cols="1">
+				<row>
+					<cell field="Name" type="wraptext" halign="left" bold="yes" left_p="0.7pt" right_p="0pt" top_p="0pt" bottom_p="0pt" charlen="20"/>
+				</row>
+			</grid>
+<wbs_diff>
+	<treediff id="1">
+		<item before="4.4pt">
+		</item>
+	</treediff>
+	<treediff id="15">
+		<item before="2.9pt">
+		</item>
+	</treediff>
+	<treediff id="18">
+		<item before="1.4pt">
+		</item>
+	</treediff>
+	<treediff id="27">
+		<item before="2.9pt">
+		</item>
+	</treediff>
+</wbs_diff>
+
+		</wbs_view>
+		<wbs_view id="Flags View" pagelayout="Page Layout 8" borderpolicy="flags" outlinesymbolpos="bottomcenter" field="Start">
+			<item id="summary" before="14.4pt"/>
+			<item id="task" before="10.8pt" listmode="stemleft"/>
+			<border id="Critical Task" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Noncritical Task" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="No Flag Task" bkcolor="none">
+				<border_edge id="top" bkcolor="black"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="black"/>
+				<border_edge id="bottom" bkcolor="black"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="black"/>
+			</border>
+			<border id="No Flag Summary" bkcolor="none">
+				<border_edge id="top" bkcolor="black"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="black"/>
+				<border_edge id="bottom" bkcolor="black"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="black"/>
+			</border>
+			<border id="Flag1" bkcolor="none">
+				<border_edge id="top" bkcolor="lime"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="lime"/>
+				<border_edge id="bottom" bkcolor="lime"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="lime"/>
+			</border>
+			<border id="Flag2" bkcolor="none">
+				<border_edge id="top" bkcolor="fuchsia"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="fuchsia"/>
+				<border_edge id="bottom" bkcolor="fuchsia"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="fuchsia"/>
+			</border>
+			<border id="Flag3" bkcolor="none">
+				<border_edge id="top" bkcolor="red"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="red"/>
+				<border_edge id="bottom" bkcolor="red"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="red"/>
+			</border>
+			<border id="Flag4" bkcolor="none">
+				<border_edge id="top" bkcolor="blue"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="bottom" bkcolor="blue"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="blue"/>
+			</border>
+			<border id="Flag5" bkcolor="none">
+				<border_edge id="top" bkcolor="yellow"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="yellow"/>
+				<border_edge id="bottom" bkcolor="yellow"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="yellow"/>
+			</border>
+			<border id="Flag6" bkcolor="none">
+				<border_edge id="top" bkcolor="aqua"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="aqua"/>
+				<border_edge id="bottom" bkcolor="aqua"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="aqua"/>
+			</border>
+			<border id="Flag7" bkcolor="none"/>
+			<border id="Flag8" bkcolor="none"/>
+			<border id="Flag9" bkcolor="none"/>
+			<border id="Flag10" bkcolor="none"/>
+			<border id="Flag11" bkcolor="none"/>
+			<border id="Flag12" bkcolor="none"/>
+			<border id="Flag13" bkcolor="none"/>
+			<border id="Flag14" bkcolor="none"/>
+			<border id="Flag15" bkcolor="none"/>
+			<border id="Flag16" bkcolor="none"/>
+			<border id="Flag17" bkcolor="none"/>
+			<border id="Flag18" bkcolor="none"/>
+			<border id="Flag19" bkcolor="none"/>
+			<border id="Flag20" bkcolor="none"/>
+			<grid id="summary" rows="3" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" stretch="yes" charlen="20"/>
+				</row>
+				<row>
+					<cell field="ID" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="Duration" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+				<row>
+					<cell field="Start" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid"/>
+					<cell field="Finish" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+			<grid id="task" rows="3" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" barcolor="red" colspan="2" stretch="yes" charlen="20"/>
+				</row>
+				<row>
+					<cell field="ID" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="Duration" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+				<row>
+					<cell field="Start" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid"/>
+					<cell field="Finish" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+<wbs_diff>
+</wbs_diff>
+
+		</wbs_view>
+		<wbs_view id="Hours and Cost View" pagelayout="Page Layout 6" outlinesymbolpos="bottomcenter">
+			<item id="summary" before="18pt"/>
+			<item id="task" before="14.4pt" listmode="stemleft"/>
+			<border id="Critical Task" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Noncritical Task" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="External Task" shdir="bottom_right" shdepth="3pt" shcolor="gray" color="gray">
+				<border_edge id="top" color="gray"/>
+				<border_edge id="left" color="gray"/>
+				<border_edge id="bottom" color="gray"/>
+				<border_edge id="right" color="gray"/>
+			</border>
+			<grid id="summary" rows="2" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" charlen="25"/>
+				</row>
+				<row>
+					<cell field="Work" format="5" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="Cost" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid"/>
+				</row>
+			</grid>
+			<grid id="task" rows="2" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" charlen="25"/>
+				</row>
+				<row>
+					<cell field="Work" format="5" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="Cost" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid"/>
+				</row>
+			</grid>
+<wbs_diff>
+</wbs_diff>
+
+		</wbs_view>
+		<wbs_view id="Planning View 2" pagelayout="Page Layout 7" outlinesymbolpos="bottomcenter">
+			<item id="summary" drop="28.8pt" before="10.8pt"/>
+			<item id="task" before="10.8pt"/>
+			<border id="Critical Task" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Critical Milestone" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Noncritical Task" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Noncritical Milestone" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="3pt"/>
+			<border id="External Task" shdir="bottom_right" shdepth="3pt"/>
+			<grid id="summary" rows="3" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="3.6pt" bottom_p="3.6pt" right_s="solid" bottom_s="solid" colspan="2" charlen="20"/>
+				</row>
+				<row>
+					<cell field="ID" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="Duration" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid"/>
+				</row>
+				<row>
+					<cell field="Start" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" right_s="solid" top_s="solid"/>
+					<cell field="Finish" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+			<grid id="task" rows="3" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="3.6pt" bottom_p="3.6pt" right_s="solid" bottom_s="solid" colspan="2" charlen="20"/>
+				</row>
+				<row>
+					<cell field="ID" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="Duration" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid"/>
+				</row>
+				<row>
+					<cell field="Start" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" right_s="solid" top_s="solid"/>
+					<cell field="Finish" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+<wbs_diff>
+</wbs_diff>
+
+		</wbs_view>
+		<wbs_view id="Planning View" pagelayout="Page Layout 1" outlinesymbolpos="bottomcenter">
+			<item id="summary" drop="28.8pt" before="10.8pt"/>
+			<item id="task" before="10.8pt"/>
+			<border id="Critical Task" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Critical Milestone" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Noncritical Task" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Noncritical Milestone" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="3pt"/>
+			<border id="External Task" shdir="bottom_right" shdepth="3pt"/>
+			<grid id="summary" rows="1" cols="1">
+				<row>
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="3.6pt" bottom_p="3.6pt" charlen="20"/>
+				</row>
+			</grid>
+			<grid id="task" rows="1" cols="1">
+				<row>
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="3.6pt" bottom_p="3.6pt" barcolor="red" charlen="20"/>
+				</row>
+			</grid>
+<wbs_diff>
+	<treediff id="24">
+		<item listmode="stemleft"/>
+	</treediff>
+	<treediff id="28">
+		<item listmode="stemleft"/>
+	</treediff>
+	<treediff id="29">
+		<item listmode="stemleft"/>
+	</treediff>
+	<treediff id="25">
+		<item before="9.9pt"/>
+	</treediff>
+	<treediff id="73">
+		<item listmode="stemleft"/>
+	</treediff>
+	<treediff id="74">
+		<item listmode="stemleft"/>
+	</treediff>
+	<treediff id="72">
+		<item listmode="stemleft"/>
+	</treediff>
+	<treediff id="43">
+		<item before="8.95pt"/>
+	</treediff>
+	<treediff id="82">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="68">
+		<item listmode="stemleft"/>
+	</treediff>
+	<treediff id="44">
+		<item before="12.65pt"/>
+	</treediff>
+	<treediff id="83">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="84">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="85">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="86">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="80">
+		<item listmode="stemleft"/>
+	</treediff>
+	<treediff id="81">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="93">
+		<item listmode="stemleft"/>
+	</treediff>
+	<treediff id="94">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="95">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="96">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="97">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="98">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="99">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="100">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="101">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="102">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="103">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="104">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="105">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="106">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="107">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="108">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="110">
+		<item listmode="stemleft"/>
+	</treediff>
+	<treediff id="111">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="112">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="113">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="114">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="115">
+		<item listmode="stemleft"/>
+	</treediff>
+	<treediff id="116">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="117">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="118">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="119">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="120">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="121">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="122">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="123">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="124">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="125">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="51">
+		<item calign="independent" before="7.05pt" adjust="0.9pt"/>
+	</treediff>
+	<treediff id="177">
+		<item listmode="stemleft"/>
+	</treediff>
+	<treediff id="178">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="179">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="180">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="181">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="182">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="183">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="184">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="185">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="186">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="187">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="188">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="189">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="190">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="191">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="192">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="194">
+		<item listmode="stemleft"/>
+	</treediff>
+	<treediff id="195">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="196">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="197">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="198">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="200">
+		<item listmode="stemleft"/>
+	</treediff>
+	<treediff id="201">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="202">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="203">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="204">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="205">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="206">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="207">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="208">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="209">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="210">
+		<item calign="branch_nearest" listmode="stemleft"/>
+	</treediff>
+	<treediff id="18">
+		<item before="67.05pt"/>
+	</treediff>
+</wbs_diff>
+
+		</wbs_view>
+		<wbs_view id="Progress View" pagelayout="Page Layout 8" borderpolicy="progress" outlinesymbolpos="bottomcenter">
+			<item id="summary" before="14.4pt"/>
+			<item id="task" before="7.2pt" listmode="stemleft"/>
+			<border id="Critical Task" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Noncritical Task" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Not Started Task">
+				<border_edge id="top" shape="rect" depth="5.1pt" bkcolor="green"/>
+				<border_edge id="left" bkcolor="green"/>
+				<border_edge id="bottom" shape="rect" depth="5.1pt" bkcolor="green"/>
+				<border_edge id="right" bkcolor="green"/>
+			</border>
+			<border id="Not Started Milestone">
+				<border_edge id="top" shape="triangle" depth="5.1pt" bkcolor="green"/>
+				<border_edge id="left" bkcolor="green"/>
+				<border_edge id="bottom" shape="triangle" depth="5.1pt" bkcolor="green"/>
+				<border_edge id="right" bkcolor="green"/>
+			</border>
+			<border id="Not Started Summary">
+				<border_edge id="top" shape="rect" depth="5.1pt" bkcolor="green"/>
+				<border_edge id="left" bkcolor="green"/>
+				<border_edge id="bottom" shape="rect" depth="5.1pt" bkcolor="green"/>
+				<border_edge id="right" bkcolor="green"/>
+			</border>
+			<border id="In Progress Task">
+				<border_edge id="top" shape="rect" depth="5.1pt" bkcolor="yellow"/>
+				<border_edge id="left" bkcolor="yellow"/>
+				<border_edge id="bottom" shape="rect" depth="5.1pt" bkcolor="yellow"/>
+				<border_edge id="right" bkcolor="yellow"/>
+			</border>
+			<border id="In Progress Summary">
+				<border_edge id="top" shape="rect" depth="5.1pt" bkcolor="yellow"/>
+				<border_edge id="left" bkcolor="yellow"/>
+				<border_edge id="bottom" shape="rect" depth="5.1pt" bkcolor="yellow"/>
+				<border_edge id="right" bkcolor="yellow"/>
+			</border>
+			<border id="Completed Task">
+				<border_edge id="top" shape="rect" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="left" bkcolor="blue"/>
+				<border_edge id="bottom" shape="rect" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="right" bkcolor="blue"/>
+			</border>
+			<border id="Completed Milestone">
+				<border_edge id="top" shape="triangle" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="left" bkcolor="blue"/>
+				<border_edge id="bottom" shape="triangle" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="right" bkcolor="blue"/>
+			</border>
+			<border id="Completed Summary">
+				<border_edge id="top" shape="rect" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="left" bkcolor="blue"/>
+				<border_edge id="bottom" shape="rect" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="right" bkcolor="blue"/>
+			</border>
+			<grid id="summary" rows="2" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" charlen="20"/>
+				</row>
+				<row>
+					<cell field="ID" label="Id: " left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="% Complete" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+			</grid>
+			<grid id="task" rows="2" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" charlen="20"/>
+				</row>
+				<row>
+					<cell field="ID" label="Id: " left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="% Complete" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+			</grid>
+<wbs_diff>
+</wbs_diff>
+
+		</wbs_view>
+	</views>
+</project>
