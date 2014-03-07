@@ -1,0 +1,48 @@
+﻿<?php
+$baitren_mottrang = 10; // Tổng số tin hiện trên 1 trang
+
+// Nếu chưa chọn trang để xem. thì ta mặc định người dùng xem đang số 0 .  
+if ( !$_GET['page'] )
+{
+    $page = 0 ;
+}
+// Đầu tiên bạn phải lấy số dữ liệu để xem, trong data bạn có bao nhiêu bài post
+$sodu_lieu = mysql_num_rows(mysql_query("SELECT * FROM `data` ") ) or die(mysql_error());
+
+//Tính số trang. Lấy số bài viết có được, chia cho số bài viết trên 1 trang, ta được số trang 
+/* Ví dụ ta có 
+20 bài viết trong data. 
+mỗi trang hiển thị 10 bài
+=> Chúng ta có 20/10 = 2 trang 
+*/
+$sotrang = $sodu_lieu/$baitren_mottrang;
+
+// Bắt đầu lấy dữ liệu 
+// Ta dùng hàm LIMIT x,y 
+// Ta muốn chọn 10 bài, từ bài 20 thì ta để LIMIT 20,10 :D 
+
+$result =mysql_query("SELECT * FROM `data`ORDER BY `id` DESC  LIMIT {$page}*{$baitren_mottrang},{$baitren_mottrang} ") or die(mysql_error()); 
+/* Bạn xem tại sao là {$page}*{$baitren_mottrang} . Lấy số id của trang hiện tại nhân với số bài viết cho 
+phép trên 1 trang
+Ví dụ ta đang ở trang số 0. thì ta lấy từ bài thứ 0 trở đi.
+ở trang số 1 thì lấy bài thứ 10 trở đi... Vì mỗi trang ta cho nó hiện chỉ 10 bài thôi :D
+*/
+
+// Xuất dữ liệu này 
+
+while ( $info = mysql_fetch_array($result ))  
+{
+    echo <<<EOT
+    $info['tenbai_viet']
+    <br />
+    $info['noidung']
+EOT;
+}
+
+// Bây giờ tạo nút bấm để chuyển trang. 
+// Hồi nảy ta tính dc cái $sotrang rùi á
+// Bây giờ ta dùng hàm for để tạo vòng lập. hiện từ trang số 0 đến <= $sotrang
+for ( $page = 0; $page <= $sotrang; $page ++ )
+{
+echo "<a href='index.php?page={$page}'>{$page}</a>";
+}
