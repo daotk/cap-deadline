@@ -1,0 +1,73 @@
+﻿// Mã JSP
+
+<%@page import="java.sql.*"%> 
+<% 
+// Thông tin db
+String host="localhost"; 
+String user="root";
+String pass="gnamueil";
+String db="lieumang"; //  tên database
+// Kết nối dữ liệu
+String _sqlurl = "jdbc:mysql:" + db;
+String conn;
+Class.forName("org.gjt.mm.mysql.Driver").newInstance();
+conn = "jdbc:mysql://" + host + "/" + db + "?user=" + user + "&password=" +pass;
+Connection Conn = DriverManager.getConnection(conn);
+// Truy vấn SQL
+Statement SQLStatement = Conn.createStatement();
+// Đếm record
+String Query = "SELECT count(*) FROM test";
+ResultSet hang = SQLStatement.executeQuery(Query);
+
+// Code tạo phân trang
+int sohang =0;
+if (hang.next())
+{
+sohang = hang.getInt(1);
+}
+
+// ở đây biến phân trang dùng cho URL là [B]p[/B]
+int p = 0;
+String sob = request.getParameter("p");
+if (sob != null ) { 
+if (sob.equals("0"))
+{
+p = 0; 
+}
+else
+{
+p = Integer.parseInt(sob) - 1; 
+}
+}
+
+int p_one = 6; // số record
+String sel = "SELECT * FROM test  ORDER BY id DESC LIMIT " + p + ","+ p_one;
+ResultSet data = SQLStatement.executeQuery(sel);
+if (data != null && data.next())
+{
+int dem =0;
+while(data.next())
+{
+dem++;
+out.print(data.getString("field1" ) + "<br>"); // show thông tin field có tên là field1
+}
+}
+
+
+int i=0;
+int n= sohang;
+int j=1; int m= p_one;
+for (i=0;i<n;i++) 
+
+           {
+if (i%m==0)
+                  {  if (p >= 0 )
+                          {
+  if   (  p+1== i )  { out.print("<a href=?p="+ i + "><b>" + j +  "</b></a> "); }     
+ else {  out.print("<a href=?p="+ i + ">"+ j +"</a> "); }
+           }
+
+ j++;
+    }
+            }
+%>
