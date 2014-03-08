@@ -1,0 +1,107 @@
+body {
+	color: #333333;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	/*background: url('http://www.studio-dk.nl/code/loginbg.jpg') no-repeat center center fixed;*/
+	background: #5a6778;
+	background-size: cover;
+}
+#logo{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 0%;	
+	left: 55%;
+	background: url('../images/logo.png') no-repeat center;
+}
+#login-box, #register-box {
+	border-top: 2px solid #3498db;
+	width: 380px;
+	padding: 20px;
+	margin: 60px auto;
+	display: none;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+}
+.header {
+	padding-bottom: 5px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #eee;
+}
+.header h2 {
+	text-align: center;
+	margin-bottom: 22px;
+	font-size: 28px;
+}
+hr {
+  border: 0;
+  border: 1px solid #eeeeee;
+}
+input[type='text']:focus, input[type="password"]:focus{
+  color: #555555;
+  border: 1px solid #555555;
+  outline: none;
+  
+}
+input[type='text'], input[type='password']{
+  margin-top: 3px;
+  margin-bottom: 10px;
+  width: 95%;
+  height: 20px;
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #555555;
+  border: 1px solid #cccccc;
+  line-heigt: 1.428571429;
+  border-radius: 5px;
+}
+
+#txtCaptcha, #txtCaptcha-reg{
+	width: 25%;
+}
+#captcha-enter, #captcha-enter-reg{
+	width: 50%;
+}	
+
+#register, #login {
+  float: right;
+  text-decoration: none;
+  color: #333333;
+}
+#register:hover, #login:hover {
+  text-decoration: underline;
+}
+.button {
+  margin-top:10px;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  cursor: pointer;
+  padding: 6px 13px;
+  border: 0 solid #018dc4;
+  font-size: 14px;
+  color: rgba(255,255,255,0.9);
+  background: #0e71ab;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+#btnrefresh, #btnrefresh-reg{
+    font-size: 18px;
+    height: 2em;
+
+    right: 13px;
+    top: 10px;
+    width: 2em;
+	background: url("../images/change1.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+   border: medium none;
+    box-shadow: none;
+    cursor: pointer;
+
+    text-indent: -999em;
+}
+.button:hover {
+  background-color: #2980b9;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
