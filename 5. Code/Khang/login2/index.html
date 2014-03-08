@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/captcha.js"></script>
+
+</head>
+<body onload="DrawCaptcha();">
+<div id="login-box">
+		<div id=logo></div>
+		<div class="header"><h2>Quản trị bộ từ điển</h2></div>
+    <form action="" method="POST">
+      <input type="text" name="username" placeholder="Tên đăng nhập" required="">
+      <input type="password" name="password" placeholder="Mật khẩu" required="">
+	  
+	  <input type="text" id="captcha-enter" name="captcha-enter" placeholder="Nhập mã kiểm tra" required="">
+	  <input type="text" id="txtCaptcha" 
+            style="background-image:url(images/captcha.png); text-align:center; border:none;
+            font-weight:bold; font-family:Modern" />
+	  
+	  <input type="button" id="btnrefresh" value="Thay đổi" onclick="DrawCaptcha();" />
+	  
+      <hr>
+      <a href="#" id="register">Bạn chưa có tài khoản?</a>
+	  <!-- <input id="Button1" type="button" value="Kiểm tra" onclick="alert(ValidCaptcha());"/> -->
+      <input type="submit" value="Đăng nhập" class="button">
+</div>
+	
+  <div id="register-box">
+	<div id=logo></div>
+    <div class="header"><h2>Đăng kí tài khoản</h2></div>
+    <form action="" method="POST">
+        <input type="text" name="fullname" placeholder="Họ tên" required="">
+		<input type="text" name="username-reg" placeholder="Tên đăng nhập" required="">
+		<input type="password" name="password-reg" placeholder="Mật khẩu" required="">
+		<input type="password" name="password-reg-confirm" placeholder="Xác nhận mật khẩu" required="">
+		<input type="text" id="captcha-enter-reg" name="captcha-enter" placeholder="Nhập mã kiểm tra" required="">
+		<input type="text" id="txtCaptcha-reg" 
+            style="background-image:url(images/captcha.png); text-align:center; border:none;
+            font-weight:bold; font-family:Modern" />
+	  
+	  <input type="button" id="btnrefresh-reg" value="Thay đổi" onclick="DrawCaptcha();" />
+		<!-- <input id="Button1" type="button" value="Kiểm tra" onclick="alert(ValidCaptchaReg());"/> -->
+        <hr>
+      <a href="#" id="login">Đăng nhập!</a>
+        <input type="submit" class="button" value="Đăng ký">
+     </form>
+  </div>
+</body>
+</html>
