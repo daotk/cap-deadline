@@ -1,0 +1,20 @@
+﻿<input type="checkbox" id="cbx" class="choice-checkbox" value="10" />
+
+Kiểm tra xem check box đang nhận giá trị true hay false:
+$("#cbx").is(':checked')
+
+- Tự động tích vào ô checkbox
+$("#cbx").attr('checked', 'checked');
+- Bỏ tích trong ô checkbox
+$("#cbx").removeAttr('checked');
+- Lấy toàn bộ value của các ô checkbox cho vào mảng
+var arr = [];
+$.each($(".choice-checkbox"), function(key, val) {
+       arr.push(val.value);
+ });
+- Xóa value trong mảng arr khi không lựa chọn checkbox này nữa.
+for(var i in arr){
+     if ($(this).val() == arr[i]) {
+         arr.splice(i, 1);
+    }
+}
