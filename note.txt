@@ -1,0 +1,27 @@
+﻿* WEB
+
+-show duong dan cau hoi ton tai ->khoi fuc
+-Trg hop user gui cau hoi,admin chon cau hoi user vua gui -> xu li ?
+-bo checkbox or cho đăng nhieu tin.
+-kill time-out
+-user dang lam viec thi [X] web-> xu li ?
+-cup dien ->xu li ?
+-Them ID vào ghi log
+
+----------------------------------------------------
+* ANDROID-hien thi
+
+
+-Read more... load mới hien thi tin moi load
+-Ngat ket noi server -> k dc out chuong trinh (tuong tu nhu ngat ket noi internet)
+-
+
+* ANDROID-quan tri
+
+-refresh ?
+-user-admin tương tự web.
+-k cho xóa
+-(nếu k đủ time có thể bỏ bộ từ điển)
+
+-----------------------------------------------
+-----------ANDROID-quan tri lam den dau nop toi do----------
