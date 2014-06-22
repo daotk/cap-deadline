@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration PUBLIC "-//APACHE//DTD LOG4J 1.2//EN" "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<!-- Appenders -->
+    <appender name="Appender2" class="org.apache.log4j.FileAppender">
+       <param name="File" value="/usr/log4j/SpringMVC2.log" />
+       <param name="Append" value="true" />
+	   <param name="Encoding" value="UTF-8" />
+	   <param name="MaxFileSize" value="100000KB" />
+	   <param name="MaxBackupIndex" value="10" />
+       <layout class="org.apache.log4j.PatternLayout">
+          <param name="ConversionPattern" value="%-7p %d{dd MMM yyyy HH:mm:ss}: %m%n"/>
+       </layout>
+    </appender>
+	<!-- Root Logger -->
+	<root>
+		<priority value="INFO" />
+        <appender-ref ref="Appender2" />
+	</root>
+</log4j:configuration>
